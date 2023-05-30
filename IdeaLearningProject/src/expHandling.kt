@@ -19,8 +19,11 @@ fun main(){
     }
     var count = 5
     while(count > 1){
-        println(count)
+        println(" The current count is $count")
         count--
+        if(count > 3 ) continue
+        if(count == 2) break
+        println(" The sometimes count is $count")
     }
 
 }
