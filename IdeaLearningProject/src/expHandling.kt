@@ -17,10 +17,15 @@ fun main(){
     } finally {
         println(" Thank god finally ")
     }
+    var count = 5
+    while(count > 1){
+        println(count)
+        count--
+    }
 
 }
 
 fun someException(){
-    throw Exception()
+    throw Exception(" GOK ")
 
 }
