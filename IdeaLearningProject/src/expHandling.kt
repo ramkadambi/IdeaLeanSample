@@ -9,6 +9,13 @@ fun main(){
         println(t.message)
     }
 
+    var myCount:Int = 5
+    loop@ while( myCount < 5){
+        if(myCount%2 == 0 ) break@loop
+        println("The value of $myCount")
+        myCount--
+    }
+
 
 
     try{
