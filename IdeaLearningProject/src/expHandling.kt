@@ -1,5 +1,5 @@
 fun main(){
-    var myNumArray : IntArray = intArrayOf(5)
+    val myNumArray : IntArray = intArrayOf(5)
 
     try{
         val myVal = myNumArray[0]
@@ -8,6 +8,8 @@ fun main(){
     catch (t: Throwable){
         println(t.message)
     }
+
+
 
     try{
         someException()
